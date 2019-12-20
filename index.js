@@ -26,4 +26,4 @@ let greetText = greet(time);
 function displayMessage(greetText){
   let textNode = document.getElementById("greeting");
   textNode.textContent = greetText;
-};
+}
