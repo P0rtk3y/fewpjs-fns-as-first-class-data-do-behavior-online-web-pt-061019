@@ -12,8 +12,12 @@ function handleClick(e) {
 function greet(time){
   let splitTime = time.split(":");
   let parsedTime = parseInt(splitTime[0])
-  if parsedTime < 12 {
-    
+  if (parsedTime < 12) {
+    return "Good Morning"
+  } else if (parsedTime > 12 && parsedTime < 17) {
+    return "Good Afternoon"
+  } else {
+    return "Good Evening"
   }
 }
 /* Write your implementation of displayMessage() */
