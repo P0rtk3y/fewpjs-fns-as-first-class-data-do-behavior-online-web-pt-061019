@@ -24,5 +24,5 @@ function greet(time){
 
 function displayMessage(updateGreeting){
   let greetText = document.getElementById("greeting");
-  
+  greetText.textContent = updateGreeting;
 }
