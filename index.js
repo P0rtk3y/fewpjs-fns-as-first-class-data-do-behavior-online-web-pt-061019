@@ -10,6 +10,7 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 
 function greet(time){
-  let splitTime = time.split(":")
+  let splitTime = time.split(":");
+  let parsedTime = splitTime[0]
 }
 /* Write your implementation of displayMessage() */
