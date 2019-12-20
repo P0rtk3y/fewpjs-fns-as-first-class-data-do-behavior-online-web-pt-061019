@@ -22,8 +22,8 @@ function greet(time){
 }
 /* Write your implementation of displayMessage() */
 
-let greetText = greet(time);
-function displayMessage(greetText){
+
+function displayMessage(update){
   let textNode = document.getElementById("greeting");
   textNode.textContent = greetText;
 }
